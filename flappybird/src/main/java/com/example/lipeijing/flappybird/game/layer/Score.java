@@ -67,7 +67,7 @@ public class Score extends BaseLayer {
         score = (int) ((endTime - startTime) / 1000);
 
         // 保存最高分
-        if (score > scoreMax) {
+        if (score >= scoreMax) {
             surface.setScoreMax(score);
         }
     }

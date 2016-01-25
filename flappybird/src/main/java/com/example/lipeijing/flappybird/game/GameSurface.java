@@ -145,7 +145,6 @@ public class GameSurface extends SurfaceView implements SurfaceHolder.Callback, 
 
         switch (gameState){
             case Constants.GAME_START:
-                score.logic();
                 break;
             case Constants.GAMING:
                 player.logic();
